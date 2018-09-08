@@ -88,8 +88,8 @@
 				var main = document.createElement('link'); main.rel = 'stylesheet';
 				main.href = 'css/main.css';
 				var head = document.getElementsByTagName('head')[0];
-				head.appendChild(bootstrap);
-				head.appendChild(main);
+				head.parentNode.insertBefore(bootstrap, head);
+				head.parentNode.insertBefore(main, head);
 			};
 			var raf = requestAnimationFrame || mozRequestAnimationFrame ||
 			 webkitRequestAnimationFrame || msRequestAnimationFrame;
