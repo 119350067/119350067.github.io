@@ -1,0 +1,42 @@
+@font-face {
+	font-family: Arizonia-Regular;
+	src: url(../fonts/Arizonia-Regular.ttf);
+}
+
+body {
+	background-image: url("../images/white-brick-wall-bg.jpg");
+}
+
+.brand {
+	color: red;
+	font-family: Arizonia-Regular;
+	font-size: 48pt;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+input {
+	outline: none;
+}
+
+input[type="text"], input[type="email"], textarea {
+	width: 250px;
+}
+
+input[type="submit"] {
+	margin-left: 74px;
+}
+
+textarea {
+	height: 100px;
+}
+
+label {
+	display: inline-block;
+	width: 70px;
+	vertical-align: top;
+	cursor: pointer;
+}
