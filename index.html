@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
-	<link rel="stylesheet" href="css/main.css">
 	<head>
 		<title>Holden's garage</title>
+		<link rel="stylesheet" href="css/bootstrap.min.css">
 	</head>
 	<body>
 		<div class="container-fluid">
@@ -84,10 +84,10 @@
 		</div>
 		<script>
 			var css = function() {
-				var bootstrap = document.createElement('link'); bootstrap.rel = 'stylesheet';
-				bootstrap.href = 'css/bootstrap.min.css';
+				var main = document.createElement('link'); main.rel = 'stylesheet';
+				main.href = 'css/main.css';
 				var head = document.getElementsByTagName('head')[0];
-				head.parentNode.insertBefore(bootstrap, head);
+				head.parentNode.insertBefore(main, head);
 			};
 			var raf = requestAnimationFrame || mozRequestAnimationFrame ||
 			 webkitRequestAnimationFrame || msRequestAnimationFrame;
