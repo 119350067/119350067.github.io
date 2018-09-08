@@ -13,6 +13,26 @@ body {
 	font-size: 48pt;
 }
 
+.header {
+	font-size: 28pt;
+}
+
+.block {
+	margin-top: 70px;
+}
+
+.main {
+	margin: 1rem auto;
+}
+
+.services, .footer {
+	font-size: 14pt;
+}
+
+.footer {
+	padding-top: 1rem;
+}
+
 img {
 	max-width: 100%;
 	height: auto;
